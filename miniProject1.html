@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul7-P1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trayek Generator</h1>
+    <p>Masukkan data trayek di bawah ini:</p>
+    <textarea id="inputTextarea"></textarea>
+    <button onclick="generateTrayek()">Generate Trayek</button>
+    <button onclick="resetTrayek()">Reset Trayek</button>
+
+    <h2>Hasil Trayek:</h2>
+    <table id="trayekTable">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Trayek</th>
+            </tr>
+        </thead>
+        <tbody id="trayekBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
